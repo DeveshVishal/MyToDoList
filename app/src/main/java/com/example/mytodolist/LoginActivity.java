@@ -47,6 +47,12 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         loader = new ProgressDialog(this);
 
+
+//        if(mAuth != null) {
+//            Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
+//            startActivity(intent);
+//        }
+
         loginQn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
